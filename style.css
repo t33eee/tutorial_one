@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #fff;
+  padding: 5px;
+  display: flex;
+}
+
+.navigation > nav {
+  display: flex;
+  padding: 8px;
+}
+
+.navigation > nav .icon_box {
+  background-color: #f4f4;
+  width: 150px;
+}
+
+.navigation > nav > .links_box {
+  flex: 1;
+}
+
+.navigation > nav > div > i {
+  font-size: 20px;
+}
+
+.navigation > nav > div > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.navigation > nav > div > ul > li {
+  font-size: 1.1em;
+}
+
+.text_sect {
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+}
+
+.text_sect > div {
+  width: 800px;
+  margin: auto;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.text_sect > div > h1 {
+  text-align: start;
+  font-size: 4em;
+  text-transform: capitalize;
+  font-weight: 900;
+  line-height: 1.2em;
+}
+
+.text_sect > div > p {
+  padding: 5px 0;
+  font-size: 1.3em;
+}
+
+.text_sect_imgs {
+  width: 850px;
+}
+
+.text_sect_imgs {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  width: fit-content;
+  height: fit-content;
+  width: 850px;
+}
+
+.text_sect_imgs > div > img {
+  width: 250px;
+  height: 350px;
+  border-radius: 5px;
+}
+
+.img_wrap {
+  width: fit-content;
+  background-color: aquamarine;
+}
+
+.img_wrap > img {
+  width: 670px;
+  height: 850px;
+  background-color: aquamarine;
+  background-size: cover;
+}
